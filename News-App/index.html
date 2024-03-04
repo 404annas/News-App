@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Over The World | News Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" class="logo"><img src="—Pngtree—realistic breaking news label designs_5516272.png"
+                    alt="News Logo"></a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="hover-link nav-items" id="cricket" onclick="onNavItemClick('cricket')">Cricket</li>
+                    <li class="hover-link nav-items" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-items" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                    <li class="hover-link nav-items" id="technology" onclick="onNavItemClick('technology')">Technology
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="search-bar flex">
+                <form>
+                    <input type="text" class="news-input" placeholder="e.g. Science">
+                    <button class="search-button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="News Image" id="news-image">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This Is The Title</h3>
+                <h5 id="news-author">Author</h5>
+                <h6 class="news-source" id="news-source">End Gadget 03/03/2024</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quasi
+                    quibusdam blanditiis. Eveniet pariatur illo quas atque eligendi nostrum perferendis.</p>
+            </div>
+        </div>
+    </template>
+</body>
+<script src="app.js"></script>
+<script>
+    const hamburger = document.querySelector(".hamburger")
+    const navItems = document.querySelector(".nav-links .flex")
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active")
+        navItems.classList.toggle("active")
+    })
+</script>
+
+</html>
