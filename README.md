@@ -1,2 +1,4 @@
 # News-App
-All In One | World News-App | Get News Through-Out The World | In Just One(1) Search,
+All In One | World News-App | Get News Through-Out The World | In Just One(1) Search.
+<br>
+I'm thrilled to announce the completion of my latest project 🎊 a cutting-edge "NEWS-APP" 📰 crafted with HTML, CSS, and JavaScript. This endeavor allowed me to delve into frontend development, honing my skills in UI design and creating an intuitive user experience 👨‍💻 Leveraging various APIs. I ensured real-time updates and comprehensive coverage across diverse news categories 🗞 As a beginner in the field, this project not only showcased my technical proficiency but also exemplified my passion for crafting innovative solutions ✨ Excited to share my journey and learning process on LinkedIn as I continue to explore the realms of #frontenddevelopment and beyond. #WebDevelopment #UIUX #JavaScript #HTML #CSS #APIIntegration
